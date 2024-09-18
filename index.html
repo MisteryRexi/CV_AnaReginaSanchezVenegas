@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV Ana Regina Sánchez Venegas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> < /CV/ > </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio2" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/ARSV.png" alt="">
+            </div>
+            <h1>Ana Regina</h1>
+            <h2>Ingeniera en sistemas computacionales</h2>
+            
+            <div class="redes inicio-redes">
+                <a href="http://wa.me/5534260378?" class="icono-redes-inicio">
+                    <img src="img/Whatsappicon.png" alt="Whatsapp">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Ana Regina Sánchez Venegas.</span> La informática y la electrónica cambia cada día y es importante cambiar con ella. Además de programar también disfruto de amar Legos, realizar proyectos de robótica, programar videojuegos y leer artículos y libros de diversos temas como ingeniería, cine e historia. Si algo no lo sé hacer hoy, pregúntame mañana.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            28-08-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono(Solo mensjae)</strong>
+                            55 3426 0378
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            reginarex1208@gmail.com
+                        </li>
+                        <li>
+                            <strong>Nivel</strong>
+                            <span>Junior</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col2">
+                    <h3>Tegnologias que más uso</h3>
+                    <!-- Botones -->
+                    <div class="botonesCol">
+                        <button class="ardu-btnCol" type="button"><span><img src="img/ARDUINO.webp" alt="HTMLicon" class="icono-btnCol">ARDUINO</span></button>
+                        <button class="js-btnCol" type="button"><span><img src="img/JSicon.png" alt="JSicon" class="icono-btnCol">JS</span></button>
+                        <button class="css-btnCol" type="button"><span><img src="img/CSSicon.png" alt="CSSicon" class="icono-btnCol">CSS</span></button>
+                        <button class="html-btnCol" type="button"><span><img src="img/HTMLicon.png" alt="HTMLicon" class="icono-btnCol">HTML</span></button>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="Curriculum Ana Regina Sánchez Venegas.pdf">Descargar CV <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>EXPERIENCIA</h2>
+            <div class="fila">
+                <!-- LENGUAJES DE PORGRMACIÓN -->
+                <div class="col">
+                    <h3>Lenguajes de porgramación</h3>
+                    <div class="skill">
+                        <span>JavaScript / Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>33%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GameMaker 2</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>23%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pyton</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C ++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>28%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL / Github</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Otras habilidades</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Autodidacto</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Peparatoria</h4>
+                        <span class="casa">Univerisdad del Valle de México</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p>Graduada de la preparatoria en
+                            la UVM con promedio final de
+                            9.5
+                            </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Univeridad</h4>
+                        <span class="casa">UTEL</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Estudiando Ingeniera en Sistemas
+                            Computacionales en la UTEL con
+                            excelencia académica</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Trabajo de archivo</h4>
+                        <span class="casa">Fabrica de borchas y pinceles La Azteca</span>
+                        <span class="fecha">2020-2021</span>
+                        <p>Trabjo de archivo en una empresa fabricante de brochas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORFOLIO -->
+    <section id="portfolio2" class="portfolio2">
+        <div class="contenido-seccion2">
+            <h2>PORTAFOLIO</h2>
+    
+            <div class="filtros">
+                <ul>
+                    <button class="filtro selected" id="all" onclick="filterProducts('all')">Todos</button>
+                    <button class="filtro" id="ProBas" onclick="filterProducts('ProBas')">Proyectos básicos</button>
+                    <button class="filtro" id="web" onclick="filterProducts('web')">Web</button>
+                    <button class="filtro" id="OtLen" onclick="filterProducts('OtLen')">Otros lenguajes</button>
+                </ul>
+            </div>
+    
+            <div class="productos2" id="productos2">
+                <div class="item-producto ProBas">
+                    <a href="https://misteryrexi.github.io/Bas_Juegos/">
+                        <img src="img/GameProBas.png" alt="">
+                        <div class="info">
+                            <div class="icono">
+                                <i><img src="img/Github.png" alt=""></i>
+                            </div>
+                            <h3>Ver proyecto en Github</h3>
+                            <p>Juego básicos</p>
+                        </div>
+                    </a>
+                    <div class="botones">
+                        <button class="js-btn" type="button"><img src="img/JSicon.png" alt="JSicon" class="icono-btn">JS</button>
+                        <button class="css-btn" type="button"><img src="img/CSSicon.png" alt="CSSicon" class="icono-btn">CSS</button>
+                        <button class="html-btn" type="button"><img src="img/HTMLicon.png" alt="HTMLicon" class="icono-btn">HTML</button>
+                    </div>
+                </div>
+                <div class="item-producto OtLen">
+                    <a href="https://misteryrexi.github.io/OtLenCajeroAu/">
+                        <img src="img/OtLenCajero.png" alt="">
+                        <div class="info">
+                            <div class="icono">
+                                <i><img src="img/Github.png" alt=""></i>
+                            </div>
+                            <h3>Ver proyecto en Github</h3>
+                            <p>Java | Cajero automático</p>
+                        </div>
+                    </a>
+                    <div class="botones">
+                        <button class="js-btn" type="button"><img src="img/JSicon.png" alt="JSicon" class="icono-btn">JS</button>
+                        <button class="css-btn" type="button"><img src="img/CSSicon.png" alt="CSSicon" class="icono-btn">CSS</button>
+                        <button class="html-btn" type="button"><img src="img/HTMLicon.png" alt="HTMLicon" class="icono-btn">HTML</button>
+                    </div>
+                </div>
+                <div class="item-producto web">
+                    <a href="https://misteryrexi.github.io/webSemanticaHTML/">
+                        <img src="img/SisWeb.png" alt="">
+                        <div class="info">
+                            <div class="icono">
+                                <i><img src="img/Github.png" alt=""></i>
+                            </div>
+                            <h3>Ver proyecto en Github</h3>
+                            <p>Semántica de HTML</p>
+                        </div>
+                    </a>
+                    <div class="botones">
+                        <button class="js-btn" type="button"><img src="img/JSicon.png" alt="JSicon" class="icono-btn">JS</button>
+                        <button class="css-btn" type="button"><img src="img/CSSicon.png" alt="CSSicon" class="icono-btn">CSS</button>
+                        <button class="html-btn" type="button"><img src="img/HTMLicon.png" alt="HTMLicon" class="icono-btn">HTML</button>
+                    </div>
+                </div>
+                <div class="item-producto web">
+                    <a href="https://misteryrexi.github.io/GranNutricion_Web/">
+                        <img src="img/GNWeb.png" alt="">
+                        <div class="info">
+                            <div class="icono">
+                                <i><img src="img/Github.png" alt=""></i>
+                            </div>
+                            <h3>Ver proyecto en Github</h3>
+                            <p>Página web de nutrición</p>
+                        </div>
+                    </a>
+                    <div class="botones">
+                        <button class="js-btn" type="button"><img src="img/JSicon.png" alt="JSicon" class="icono-btn">JS</button>
+                        <button class="css-btn" type="button"><img src="img/CSSicon.png" alt="CSSicon" class="icono-btn">CSS</button>
+                        <button class="html-btn" type="button"><img src="img/HTMLicon.png" alt="HTMLicon" class="icono-btn">HTML</button>
+                    </div>
+                </div>
+                <div class="item-producto ProBas">
+                    <a href="https://misteryrexi.github.io/ProBas_CalculadoraB-sica/">
+                        <img src="img/CalProBas.png" alt="">
+                        <div class="info">
+                            <div class="icono">
+                                <i><img src="img/Github.png" alt=""></i>
+                            </div>
+                            <h3>Ver proyecto en Github</h3>
+                            <p>Calculadora básica</p>
+                        </div>
+                    </a>
+                    <div class="botones">
+                        <button class="js-btn" type="button"><img src="img/JSicon.png" alt="JSicon" class="icono-btn">JS</button>
+                        <button class="css-btn" type="button"><img src="img/CSSicon.png" alt="CSSicon" class="icono-btn">CSS</button>
+                        <button class="html-btn" type="button"><img src="img/HTMLicon.png" alt="HTMLicon" class="icono-btn">HTML</button>
+                    </div>
+                </div>
+            </div>
+            <button class="load-more" onclick="loadMore()">Cargar más</button>
+            <button class="load-less" onclick="loadLess()" style="display:none;">Cargar menos</button>
+        </div>
+    </section>
+    
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <form action="https://formsubmit.co/reginarex1208@gmail.com" method="POST">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" name="Nombre" placeholder="Nombre">
+                        <input type="text" name="Número" placeholder="Número telefónico">
+                        <input type="text" name="Email" placeholder="Email">
+                        <input type="text"  name="Proposito" placeholder="Proposito">
+                        <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>Enviar Mensaje    <i class="fa-solid fa-paper-plane"></i><span class="overlay"></span></button>
+                        <input type="hidden" name="_next" value="https://misteryrexi.github.io/AnaReginaSV_CV/#contacto">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                    <!-- Contacto derecha -->
+                    <div class="col">
+                        <img src="img/contacto3.jpg" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Telefono(Solo mensjae):  55 3426 0378 
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: reginarex1208@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes footer-redes">
+            <a href="#" class="icono-redes-footer">
+                <img src="img/Whatsappicon.png" alt="Whatsapp">
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
